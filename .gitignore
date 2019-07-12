@@ -1,0 +1,11 @@
+anchors/*
+annotations/*
+bin/*
+build/*
+ckpt/*
+vids/*
+images/*
+sample_img/*
+flow
+prediction.png
+.DS_Store
