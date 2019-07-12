@@ -5,8 +5,11 @@ Open up a terminal and paste the following:
 cd darkflow && make
 
 #### Create Directories
-darkflow/sample_img	# validation images for run.py
-darkflow/bin		# yolo weights
+sample_img	# validation images for run.py
+bin			# yolo weights
+annotations
+images
+
 
 #### Download YOLO weights
 These can be found (link somewhere) on the Darkflow GitHub

@@ -16,7 +16,7 @@ def boxing(original_img, predictions):
         btm_y = result['bottomright']['y']
 
         confidence = result['confidence']
-        if confidence > 0.4:
+        if confidence > 0.9:
             label = f"{result['label']}[{count}] {str(round(confidence, 3))}"
             count += 1
             newImage = cv2.rectangle(

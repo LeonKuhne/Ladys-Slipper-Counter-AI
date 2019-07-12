@@ -109,12 +109,6 @@ if __name__ == '__main__':
         frame = getFrame(video)
         ok, bboxes = tracker.update(frame)
 
-        results = tfnet.return_predict(frame)
-        predictions = getPredictions(results)
-        for bbox in predictions:
-            print(bbox)
-            tracker.add(getTracker(tracker_types[2]), frame, bbox)
-
         for bbox in bboxes:
             print(bbox)
             # Draw bounding box
@@ -127,6 +121,12 @@ if __name__ == '__main__':
                 # Tracking failure
                 cv2.putText(frame, "Tracking failure detected", (100, 80),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.75, (0, 0, 255), 2)
+
+                results = tfnet.return_predict(frame)
+                predictions = getPredictions(results)
+                for bbox in predictions:
+                    print(bbox)
+                    tracker.add(getTracker(tracker_types[2]), frame, bbox)
 
         # Display tracker type on frame
         cv2.putText(frame, tracker_types[2] + " Tracker", (100, 20),
