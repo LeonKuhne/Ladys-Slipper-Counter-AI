@@ -14,10 +14,10 @@ yolo weights
 
 #### Download YOLO weights
 These can be found (link somewhere) on the Darkflow GitHub
-Add the downloaded weights to darkflow/bin and rename to 'yolo.weights'
+Add the downloaded weights to 'bin' and rename to 'yolo.weights'
 
 #### Testing Data
-Add the image to test to 'darkflow/sample_img'
+Add the image to test to 'sample_img'
 Modify 'run.py' to use the new images 'image_name'
 > python3 run.py
 
