@@ -22,13 +22,14 @@ cd darkflow
 python3 run.py
 
 ### Files
-gen_anchors.py  - prints anchors to use in config
-
-train.py        - train the counter
-
-run.py          - test using image
-
-tracker.py      - test using video (WIP)
+##### gen_anchors.py
+prints anchors to use in config
+##### train.py
+train the counter
+##### run.py
+test using image
+##### tracker.py
+test using video (WIP)
 
 
 
