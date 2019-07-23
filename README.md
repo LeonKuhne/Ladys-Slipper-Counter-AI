@@ -6,7 +6,7 @@ Open up a terminal, cd to this directory, run:
 
 #### Create Directories
 ##### sample_img/
-validation images for run.py
+contains validation images for run.py
 ##### bin/
 yolo weights
 ##### annotations/
