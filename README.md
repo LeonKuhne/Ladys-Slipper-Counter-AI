@@ -5,11 +5,10 @@ Open up a terminal and paste the following:
 cd darkflow && make
 
 #### Create Directories
-sample_img	# validation images for run.py
-bin			# yolo weights
-annotations
-images
-
+sample_img/    - validation images for run.py
+bin/           - yolo weights
+annotations/
+images/
 
 #### Download YOLO weights
 These can be found (link somewhere) on the Darkflow GitHub
@@ -23,10 +22,10 @@ cd darkflow
 python3 run.py
 
 ### Files
-gen_anchors.py	# prints anchors to use in config
-train.py	# train the counter
-run.py		# test using image
-tracker.py	# test using video (WIP)
+gen_anchors.py  - prints anchors to use in config
+train.py        - train the counter
+run.py          - test using image
+tracker.py      - test using video (WIP)
 
 
 ### Configuration
