@@ -1,6 +1,5 @@
 Check out https://github.com/thtrieu/darkflow
-
-
+---
 ### First Time Setup
 Open up a terminal, cd to this directory, run:
 > make
@@ -24,6 +23,7 @@ Add the image to test to 'sample_img'
 Modify 'run.py' to use the new images 'image_name'
 > python3 run.py
 
+---
 
 ### Files
 
@@ -37,6 +37,7 @@ test using image
 test using video (WIP)
 
 
+---
 
 ### Configuration
 
