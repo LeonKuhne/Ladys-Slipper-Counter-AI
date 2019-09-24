@@ -1,4 +1,7 @@
 Check out https://github.com/thtrieu/darkflow
+
+This repo is an in-development research effort to count ladies slipper orchids from drone footage for the purpose of monitoring populations.
+
 ---
 ### First Time Setup
 Open up a terminal, cd to this directory, run:
